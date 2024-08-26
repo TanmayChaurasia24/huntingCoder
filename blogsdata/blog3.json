@@ -1,0 +1,6 @@
+{
+    "title": "Styling in Next.js using CSS Modules",
+    "author": "Michael Brown",
+    "date": "2024-08-18",
+    "content": "CSS Modules in Next.js allow you to scope your styles locally, reducing the risk of style conflicts. It's a great way to manage styles in a modular and maintainable manner."
+}

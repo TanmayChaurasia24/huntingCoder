@@ -1,0 +1,6 @@
+{
+    "title": "Optimizing Performance in Next.js",
+    "author": "William Johnson",
+    "date": "2024-08-10",
+    "content": "Performance optimization in Next.js involves techniques like lazy loading, code splitting, image optimization, and more. These techniques help in delivering a fast and responsive user experience."
+}

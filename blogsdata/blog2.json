@@ -1,0 +1,6 @@
+{
+    "title": "Understanding SSR and SSG in Next.js",
+    "author": "Jane Smith",
+    "date": "2024-08-20",
+    "content": "SSR (Server-Side Rendering) and SSG (Static Site Generation) are two key concepts in Next.js. SSR generates HTML on each request, while SSG generates HTML at build time, both improving performance and SEO."
+}

@@ -1,0 +1,6 @@
+{
+    "title": "Introduction to Next.js",
+    "author": "John Doe",
+    "date": "2024-08-25",
+    "content": "Next.js is a powerful React framework that enables server-side rendering and static site generation. It provides a great developer experience with features like automatic code splitting, hot module replacement, and optimized performance."
+}
