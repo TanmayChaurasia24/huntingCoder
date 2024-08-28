@@ -5,13 +5,11 @@ import path from 'path';
 export async function GET(req) {
     try {
         const filePath = path.join(process.cwd(), 'blogsdata', 'blog1.json');
-        const data = await fs.readFile(filePath, 'utf-8');
-        console.log(data); // Optional: For debugging purposes, logs data to the server console
-        
-        // Return the response to the client
-        return new Response(data)
+        const data = await fs.readFile(filePath, 'utf-8');     
+        const newdata = JSON.parse(data)
+        return new Response(JSON.stringify(newdata));
     } catch (err) {
-        console.error(err); // Log the error for debugging
+        console.error(err);
         return new Response(JSON.stringify({ error: 'Failed to read file' }), {
             status: 500,
             headers: {

@@ -1,5 +1,5 @@
 {
-    "title": "Deploying Next.js Applications on Vercel",
+    "title": "Deploying Next.js Applications on Vercel ",
     "author": "Emily Clark",
     "date": "2024-08-15",
     "content": "Vercel is the official platform for Next.js deployment. It offers a seamless deployment experience with features like automatic previews, instant scaling, and fast global delivery."
