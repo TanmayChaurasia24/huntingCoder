@@ -1,4 +1,4 @@
-
+// http://localhost:3000/api/getblog?slug=Deploying%20Next.js%20Applications%20on%20Vercel
 import * as fs from 'fs/promises'; 
 import path from 'path';
 

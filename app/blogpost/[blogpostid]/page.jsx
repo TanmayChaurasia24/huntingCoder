@@ -1,11 +1,12 @@
 import React from "react";
 
 const Slug = ({ params }) => {
+  const title = decodeURIComponent(params.blogpostid);
   return (
     <main className="flex min-h-screen flex-col items-center">
       <div>
         <h1 className="flex justify-center">
-          title of the page {params.blogpostid}
+          {title}
         </h1>
         <hr />
         <div className="flex justify-center items-center mt-5 pl-24 pr-24 pb-24">
